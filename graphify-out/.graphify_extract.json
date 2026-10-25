@@ -1,0 +1,1976 @@
+{
+  "nodes": [
+    {
+      "id": "github_workflows_ci",
+      "label": "ci.yml",
+      "file_type": "code",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "github_workflows_ci_name",
+      "label": "name",
+      "file_type": "code",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "github_workflows_ci_true",
+      "label": "True",
+      "file_type": "code",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "github_workflows_ci_true_push",
+      "label": "push",
+      "file_type": "code",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "github_workflows_ci_push_branches",
+      "label": "branches",
+      "file_type": "code",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "github_workflows_ci_true_pull_request",
+      "label": "pull_request",
+      "file_type": "code",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "github_workflows_ci_pull_request_branches",
+      "label": "branches",
+      "file_type": "code",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "github_workflows_ci_jobs",
+      "label": "jobs",
+      "file_type": "code",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "github_workflows_ci_jobs_build",
+      "label": "build",
+      "file_type": "code",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "github_workflows_ci_build_runs_on",
+      "label": "runs-on",
+      "file_type": "code",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "github_workflows_ci_build_steps",
+      "label": "steps",
+      "file_type": "code",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "github_workflows_ci_steps_uses",
+      "label": "uses",
+      "file_type": "code",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "github_workflows_ci_steps_name",
+      "label": "name",
+      "file_type": "code",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "github_workflows_ci_steps_with",
+      "label": "with",
+      "file_type": "code",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "github_workflows_ci_with_python_version",
+      "label": "python-version",
+      "file_type": "code",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "github_workflows_ci_steps_run",
+      "label": "run",
+      "file_type": "code",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "github_workflows_ci_with_name",
+      "label": "name",
+      "file_type": "code",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "github_workflows_ci_with_path",
+      "label": "path",
+      "file_type": "code",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "app",
+      "label": "app.py",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_feedbackdialog",
+      "label": "FeedbackDialog",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L35",
+      "metadata": {
+        "python_opaque_bases": true
+      },
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "app_feedbackdialog_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L36",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "app_feedbackdialog_submit_feedback",
+      "label": ".submit_feedback()",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L150",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "app_feedbackdialog_submit_feedback_worker",
+      "label": "worker()",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L161",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "app_feedbackdialog_on_success",
+      "label": "._on_success()",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L187",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "app_feedbackdialog_fallback_browser",
+      "label": "._fallback_browser()",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L191",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "app_blackoutapp",
+      "label": "BlackoutApp",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L208",
+      "metadata": {
+        "python_opaque_bases": true
+      },
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "app_blackoutapp_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L209",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "app_blackoutapp_setup_ui",
+      "label": "._setup_ui()",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L227",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "app_blackoutapp_protect_self_from_capture",
+      "label": "._protect_self_from_capture()",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L314",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "app_blackoutapp_register_global_hotkey",
+      "label": "._register_global_hotkey()",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L325",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "app_blackoutapp_start_hotkey_listener",
+      "label": "._start_hotkey_listener()",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L334",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "app_blackoutapp_start_hotkey_listener_listener",
+      "label": "listener()",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L336",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "app_blackoutapp_toggle_privacy",
+      "label": ".toggle_privacy()",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L347",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "app_blackoutapp_open_feedback",
+      "label": ".open_feedback()",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L380",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "app_blackoutapp_on_closing",
+      "label": ".on_closing()",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L383",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "app_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L393",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "app_rationale_1",
+      "label": "Blackout Privacy - Native Windows Application…",
+      "file_type": "rationale",
+      "source_file": "app.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_rationale_315",
+      "label": "Prevents this control window from appearing on screen share if desired.",
+      "file_type": "rationale",
+      "source_file": "app.py",
+      "source_location": "L315",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_rationale_326",
+      "label": "Registers global Ctrl + Alt + B hotkey so user can toggle from any window.",
+      "file_type": "rationale",
+      "source_file": "app.py",
+      "source_location": "L326",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_rationale_335",
+      "label": "Background message pump to capture WM_HOTKEY events.",
+      "file_type": "rationale",
+      "source_file": "app.py",
+      "source_location": "L335",
+      "_origin": "ast"
+    },
+    {
+      "id": "blackout_core",
+      "label": "blackout_core.py",
+      "file_type": "code",
+      "source_file": "blackout_core.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "blackout_core_wndclassexw",
+      "label": "WNDCLASSEXW",
+      "file_type": "code",
+      "source_file": "blackout_core.py",
+      "source_location": "L63",
+      "metadata": {
+        "python_opaque_bases": true
+      },
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "blackout_core_wnd_proc",
+      "label": "_wnd_proc()",
+      "file_type": "code",
+      "source_file": "blackout_core.py",
+      "source_location": "L81",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "blackout_core_ensure_class_registered",
+      "label": "_ensure_class_registered()",
+      "file_type": "code",
+      "source_file": "blackout_core.py",
+      "source_location": "L86",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "blackout_core_screenblackoutmanager",
+      "label": "ScreenBlackoutManager",
+      "file_type": "code",
+      "source_file": "blackout_core.py",
+      "source_location": "L114",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "blackout_core_screenblackoutmanager_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "blackout_core.py",
+      "source_location": "L118",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "blackout_core_screenblackoutmanager_is_active",
+      "label": ".is_active()",
+      "file_type": "code",
+      "source_file": "blackout_core.py",
+      "source_location": "L123",
+      "_py_property": true,
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "blackout_core_screenblackoutmanager_get_virtual_screen_bounds",
+      "label": ".get_virtual_screen_bounds()",
+      "file_type": "code",
+      "source_file": "blackout_core.py",
+      "source_location": "L126",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "blackout_core_screenblackoutmanager_activate",
+      "label": ".activate()",
+      "file_type": "code",
+      "source_file": "blackout_core.py",
+      "source_location": "L141",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "blackout_core_screenblackoutmanager_deactivate",
+      "label": ".deactivate()",
+      "file_type": "code",
+      "source_file": "blackout_core.py",
+      "source_location": "L189",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "blackout_core_screenblackoutmanager_toggle",
+      "label": ".toggle()",
+      "file_type": "code",
+      "source_file": "blackout_core.py",
+      "source_location": "L206",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "blackout_core_rationale_1",
+      "label": "Blackout Core Engine ==================== Provides hardware/DWM-accelerated…",
+      "file_type": "rationale",
+      "source_file": "blackout_core.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "blackout_core_rationale_115",
+      "label": "Controls the screen blackout overlay state.",
+      "file_type": "rationale",
+      "source_file": "blackout_core.py",
+      "source_location": "L115",
+      "_origin": "ast"
+    },
+    {
+      "id": "blackout_core_rationale_127",
+      "label": "Returns (x, y, width, height) covering all attached monitors.",
+      "file_type": "rationale",
+      "source_file": "blackout_core.py",
+      "source_location": "L127",
+      "_origin": "ast"
+    },
+    {
+      "id": "blackout_core_rationale_142",
+      "label": "Activates privacy mode: Screen becomes pitch black to any screen sharing…",
+      "file_type": "rationale",
+      "source_file": "blackout_core.py",
+      "source_location": "L142",
+      "_origin": "ast"
+    },
+    {
+      "id": "blackout_core_rationale_190",
+      "label": "Deactivates privacy mode: Screen capture immediately resumes normal view.",
+      "file_type": "rationale",
+      "source_file": "blackout_core.py",
+      "source_location": "L190",
+      "_origin": "ast"
+    },
+    {
+      "id": "blackout_core_rationale_207",
+      "label": "Toggles between active and inactive states. Returns new active state.",
+      "file_type": "rationale",
+      "source_file": "blackout_core.py",
+      "source_location": "L207",
+      "_origin": "ast"
+    },
+    {
+      "id": "run_graphify",
+      "label": "run_graphify.py",
+      "file_type": "code",
+      "source_file": "run_graphify.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "test_blackout",
+      "label": "test_blackout.py",
+      "file_type": "code",
+      "source_file": "test_blackout.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "test_blackout_sample_screen_pixel",
+      "label": "sample_screen_pixel()",
+      "file_type": "code",
+      "source_file": "test_blackout.py",
+      "source_location": "L20",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "test_blackout_testscreenblackout",
+      "label": "TestScreenBlackout",
+      "file_type": "code",
+      "source_file": "test_blackout.py",
+      "source_location": "L37",
+      "metadata": {
+        "python_opaque_bases": true
+      },
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "test_blackout_testscreenblackout_setup",
+      "label": ".setUp()",
+      "file_type": "code",
+      "source_file": "test_blackout.py",
+      "source_location": "L38",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "test_blackout_testscreenblackout_teardown",
+      "label": ".tearDown()",
+      "file_type": "code",
+      "source_file": "test_blackout.py",
+      "source_location": "L41",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "test_blackout_testscreenblackout_test_virtual_screen_bounds",
+      "label": ".test_virtual_screen_bounds()",
+      "file_type": "code",
+      "source_file": "test_blackout.py",
+      "source_location": "L44",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "test_blackout_testscreenblackout_test_blackout_activation_and_capture",
+      "label": ".test_blackout_activation_and_capture()",
+      "file_type": "code",
+      "source_file": "test_blackout.py",
+      "source_location": "L50",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "test_blackout_rationale_1",
+      "label": "Automated Verification Suite for Blackout Screen Privacy…",
+      "file_type": "rationale",
+      "source_file": "test_blackout.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "test_blackout_rationale_21",
+      "label": "Captures a 1x1 pixel from the screen DC via GDI BitBlt and returns RGB color.",
+      "file_type": "rationale",
+      "source_file": "test_blackout.py",
+      "source_location": "L21",
+      "_origin": "ast"
+    }
+  ],
+  "edges": [
+    {
+      "source": "github_workflows_ci",
+      "target": "github_workflows_ci_name",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "github_workflows_ci",
+      "target": "github_workflows_ci_true",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "github_workflows_ci_true",
+      "target": "github_workflows_ci_true_push",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "github_workflows_ci_true_push",
+      "target": "github_workflows_ci_push_branches",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "github_workflows_ci_true",
+      "target": "github_workflows_ci_true_pull_request",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "github_workflows_ci_true_pull_request",
+      "target": "github_workflows_ci_pull_request_branches",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "github_workflows_ci",
+      "target": "github_workflows_ci_jobs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "github_workflows_ci_jobs",
+      "target": "github_workflows_ci_jobs_build",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "github_workflows_ci_jobs_build",
+      "target": "github_workflows_ci_build_runs_on",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "github_workflows_ci_jobs_build",
+      "target": "github_workflows_ci_build_steps",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "github_workflows_ci_build_steps",
+      "target": "github_workflows_ci_steps_uses",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "github_workflows_ci_build_steps",
+      "target": "github_workflows_ci_steps_name",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "github_workflows_ci_build_steps",
+      "target": "github_workflows_ci_steps_uses",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "github_workflows_ci_build_steps",
+      "target": "github_workflows_ci_steps_with",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "github_workflows_ci_steps_with",
+      "target": "github_workflows_ci_with_python_version",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "github_workflows_ci_build_steps",
+      "target": "github_workflows_ci_steps_name",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "github_workflows_ci_build_steps",
+      "target": "github_workflows_ci_steps_run",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "github_workflows_ci_build_steps",
+      "target": "github_workflows_ci_steps_name",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "github_workflows_ci_build_steps",
+      "target": "github_workflows_ci_steps_run",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "github_workflows_ci_build_steps",
+      "target": "github_workflows_ci_steps_name",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "github_workflows_ci_build_steps",
+      "target": "github_workflows_ci_steps_run",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "github_workflows_ci_build_steps",
+      "target": "github_workflows_ci_steps_name",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "github_workflows_ci_build_steps",
+      "target": "github_workflows_ci_steps_uses",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "github_workflows_ci_build_steps",
+      "target": "github_workflows_ci_steps_with",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "github_workflows_ci_steps_with",
+      "target": "github_workflows_ci_with_name",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "github_workflows_ci_steps_with",
+      "target": "github_workflows_ci_with_path",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app",
+      "target": "sys",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app",
+      "target": "os",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app",
+      "target": "threading",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app",
+      "target": "subprocess",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app",
+      "target": "webbrowser",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app",
+      "target": "urllib_parse",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app",
+      "target": "ctypes",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app",
+      "target": "ctypes",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app",
+      "target": "tkinter",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app",
+      "target": "tkinter",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app",
+      "target": "blackout_core",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app",
+      "target": "app_feedbackdialog",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L35",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_feedbackdialog",
+      "target": "app_feedbackdialog_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_feedbackdialog",
+      "target": "app_feedbackdialog_submit_feedback",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L150",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_feedbackdialog_submit_feedback",
+      "target": "app_feedbackdialog_submit_feedback_worker",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L161",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_feedbackdialog",
+      "target": "app_feedbackdialog_on_success",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L187",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_feedbackdialog",
+      "target": "app_feedbackdialog_fallback_browser",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L191",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app",
+      "target": "app_blackoutapp",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L208",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_blackoutapp",
+      "target": "app_blackoutapp_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L209",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_blackoutapp",
+      "target": "app_blackoutapp_setup_ui",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L227",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_blackoutapp",
+      "target": "app_blackoutapp_protect_self_from_capture",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L314",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_blackoutapp",
+      "target": "app_blackoutapp_register_global_hotkey",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L325",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_blackoutapp",
+      "target": "app_blackoutapp_start_hotkey_listener",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L334",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_blackoutapp_start_hotkey_listener",
+      "target": "app_blackoutapp_start_hotkey_listener_listener",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L336",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_blackoutapp",
+      "target": "app_blackoutapp_toggle_privacy",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L347",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_blackoutapp",
+      "target": "app_blackoutapp_open_feedback",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L380",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_blackoutapp",
+      "target": "app_blackoutapp_on_closing",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L383",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app",
+      "target": "app_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L393",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_feedbackdialog_submit_feedback",
+      "target": "app_feedbackdialog_submit_feedback_worker",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "app.py",
+      "source_location": "L185",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_feedbackdialog_submit_feedback_worker",
+      "target": "app_feedbackdialog_on_success",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L181",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_feedbackdialog_submit_feedback_worker",
+      "target": "app_feedbackdialog_fallback_browser",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L183",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_blackoutapp_init",
+      "target": "app_blackoutapp_setup_ui",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L220",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_blackoutapp_init",
+      "target": "app_blackoutapp_protect_self_from_capture",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L221",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_blackoutapp_init",
+      "target": "app_blackoutapp_register_global_hotkey",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L222",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_blackoutapp_register_global_hotkey",
+      "target": "app_blackoutapp_start_hotkey_listener",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L332",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_blackoutapp_start_hotkey_listener",
+      "target": "app_blackoutapp_start_hotkey_listener_listener",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "app.py",
+      "source_location": "L344",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_blackoutapp_open_feedback",
+      "target": "app_feedbackdialog",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L381",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_main",
+      "target": "app_blackoutapp",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L394",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_rationale_1",
+      "target": "app",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_rationale_315",
+      "target": "app_blackoutapp_protect_self_from_capture",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L315",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_rationale_326",
+      "target": "app_blackoutapp_register_global_hotkey",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L326",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_rationale_335",
+      "target": "app_blackoutapp_start_hotkey_listener",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L335",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "blackout_core",
+      "target": "ctypes",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "blackout_core.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "blackout_core",
+      "target": "ctypes",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "blackout_core.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "blackout_core",
+      "target": "logging",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "blackout_core.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "blackout_core",
+      "target": "blackout_core_wndclassexw",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "blackout_core.py",
+      "source_location": "L63",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "blackout_core",
+      "target": "blackout_core_wnd_proc",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "blackout_core.py",
+      "source_location": "L81",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "blackout_core",
+      "target": "blackout_core_ensure_class_registered",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "blackout_core.py",
+      "source_location": "L86",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "blackout_core",
+      "target": "blackout_core_screenblackoutmanager",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "blackout_core.py",
+      "source_location": "L114",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "blackout_core_screenblackoutmanager",
+      "target": "blackout_core_screenblackoutmanager_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "blackout_core.py",
+      "source_location": "L118",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "blackout_core_screenblackoutmanager",
+      "target": "blackout_core_screenblackoutmanager_is_active",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "blackout_core.py",
+      "source_location": "L123",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "blackout_core_screenblackoutmanager",
+      "target": "blackout_core_screenblackoutmanager_get_virtual_screen_bounds",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "blackout_core.py",
+      "source_location": "L126",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "blackout_core_screenblackoutmanager",
+      "target": "blackout_core_screenblackoutmanager_activate",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "blackout_core.py",
+      "source_location": "L141",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "blackout_core_screenblackoutmanager",
+      "target": "blackout_core_screenblackoutmanager_deactivate",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "blackout_core.py",
+      "source_location": "L189",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "blackout_core_screenblackoutmanager",
+      "target": "blackout_core_screenblackoutmanager_toggle",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "blackout_core.py",
+      "source_location": "L206",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "blackout_core_ensure_class_registered",
+      "target": "blackout_core_wndclassexw",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "blackout_core.py",
+      "source_location": "L91",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "blackout_core_screenblackoutmanager_activate",
+      "target": "blackout_core_ensure_class_registered",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "blackout_core.py",
+      "source_location": "L149",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "blackout_core_screenblackoutmanager_activate",
+      "target": "blackout_core_screenblackoutmanager_get_virtual_screen_bounds",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "blackout_core.py",
+      "source_location": "L150",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "blackout_core_screenblackoutmanager_toggle",
+      "target": "blackout_core_screenblackoutmanager_deactivate",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "blackout_core.py",
+      "source_location": "L209",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "blackout_core_screenblackoutmanager_toggle",
+      "target": "blackout_core_screenblackoutmanager_activate",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "blackout_core.py",
+      "source_location": "L211",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "blackout_core_rationale_1",
+      "target": "blackout_core",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "blackout_core.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "blackout_core_rationale_115",
+      "target": "blackout_core_screenblackoutmanager",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "blackout_core.py",
+      "source_location": "L115",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "blackout_core_rationale_127",
+      "target": "blackout_core_screenblackoutmanager_get_virtual_screen_bounds",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "blackout_core.py",
+      "source_location": "L127",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "blackout_core_rationale_142",
+      "target": "blackout_core_screenblackoutmanager_activate",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "blackout_core.py",
+      "source_location": "L142",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "blackout_core_rationale_190",
+      "target": "blackout_core_screenblackoutmanager_deactivate",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "blackout_core.py",
+      "source_location": "L190",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "blackout_core_rationale_207",
+      "target": "blackout_core_screenblackoutmanager_toggle",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "blackout_core.py",
+      "source_location": "L207",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "run_graphify",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "run_graphify.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "run_graphify",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "run_graphify.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "run_graphify",
+      "target": "graphify_detect",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "run_graphify.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "run_graphify",
+      "target": "graphify_extract",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "run_graphify.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "run_graphify",
+      "target": "graphify_build",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "run_graphify.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "run_graphify",
+      "target": "graphify_cluster",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "run_graphify.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "run_graphify",
+      "target": "graphify_analyze",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "run_graphify.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "run_graphify",
+      "target": "graphify_report",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "run_graphify.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "run_graphify",
+      "target": "graphify_export",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "run_graphify.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_blackout",
+      "target": "unittest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "test_blackout.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_blackout",
+      "target": "ctypes",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "test_blackout.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_blackout",
+      "target": "ctypes",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "test_blackout.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_blackout",
+      "target": "time",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "test_blackout.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_blackout",
+      "target": "blackout_core",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "test_blackout.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_blackout",
+      "target": "test_blackout_sample_screen_pixel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "test_blackout.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_blackout",
+      "target": "test_blackout_testscreenblackout",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "test_blackout.py",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_blackout_testscreenblackout",
+      "target": "test_blackout_testscreenblackout_setup",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "test_blackout.py",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_blackout_testscreenblackout",
+      "target": "test_blackout_testscreenblackout_teardown",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "test_blackout.py",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_blackout_testscreenblackout",
+      "target": "test_blackout_testscreenblackout_test_virtual_screen_bounds",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "test_blackout.py",
+      "source_location": "L44",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_blackout_testscreenblackout",
+      "target": "test_blackout_testscreenblackout_test_blackout_activation_and_capture",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "test_blackout.py",
+      "source_location": "L50",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_blackout_testscreenblackout_test_blackout_activation_and_capture",
+      "target": "test_blackout_sample_screen_pixel",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "test_blackout.py",
+      "source_location": "L69",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_blackout_rationale_1",
+      "target": "test_blackout",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "test_blackout.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_blackout_rationale_21",
+      "target": "test_blackout_sample_screen_pixel",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "test_blackout.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app",
+      "target": "blackout_core_screenblackoutmanager",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_blackout",
+      "target": "blackout_core_screenblackoutmanager",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "test_blackout.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_blackoutapp",
+      "target": "blackout_core_screenblackoutmanager",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "app.py",
+      "source_location": "L211",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_blackout_testscreenblackout",
+      "target": "blackout_core_screenblackoutmanager",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "test_blackout.py",
+      "source_location": "L39",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_blackoutapp_init",
+      "target": "blackout_core_screenblackoutmanager",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app.py",
+      "source_location": "L211",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_blackout_testscreenblackout_setup",
+      "target": "blackout_core_screenblackoutmanager",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test_blackout.py",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_blackoutapp_toggle_privacy",
+      "target": "blackout_core_screenblackoutmanager_toggle",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "app.py",
+      "source_location": "L348",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_blackoutapp_on_closing",
+      "target": "blackout_core_screenblackoutmanager_deactivate",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "app.py",
+      "source_location": "L385",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_blackoutapp_on_closing",
+      "target": "blackout_core_screenblackoutmanager_is_active",
+      "relation": "references",
+      "context": "property_read",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "app.py",
+      "source_location": "L384",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_blackout_testscreenblackout_teardown",
+      "target": "blackout_core_screenblackoutmanager_deactivate",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "test_blackout.py",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_blackout_testscreenblackout_test_virtual_screen_bounds",
+      "target": "blackout_core_screenblackoutmanager_get_virtual_screen_bounds",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "test_blackout.py",
+      "source_location": "L45",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_blackout_testscreenblackout_test_blackout_activation_and_capture",
+      "target": "blackout_core_screenblackoutmanager_activate",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "test_blackout.py",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_blackout_testscreenblackout_test_blackout_activation_and_capture",
+      "target": "blackout_core_screenblackoutmanager_get_virtual_screen_bounds",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "test_blackout.py",
+      "source_location": "L61",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_blackout_testscreenblackout_test_blackout_activation_and_capture",
+      "target": "blackout_core_screenblackoutmanager_deactivate",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "test_blackout.py",
+      "source_location": "L76",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_blackout_testscreenblackout_test_blackout_activation_and_capture",
+      "target": "blackout_core_screenblackoutmanager_is_active",
+      "relation": "references",
+      "context": "property_read",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "test_blackout.py",
+      "source_location": "L77",
+      "weight": 1.0,
+      "_origin": "ast"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "failed_sources": [],
+  "skipped_sources": [],
+  "extracted_sources": [
+    "F:\\projects\\blackout-privacy\\.github\\workflows\\ci.yml",
+    "F:\\projects\\blackout-privacy\\app.py",
+    "F:\\projects\\blackout-privacy\\blackout_core.py",
+    "F:\\projects\\blackout-privacy\\run_graphify.py",
+    "F:\\projects\\blackout-privacy\\test_blackout.py"
+  ]
+}

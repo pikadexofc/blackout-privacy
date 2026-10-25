@@ -1,0 +1,38 @@
+name: CI & Build Windows Executable
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python 3.12
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.12"
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pyinstaller
+
+    - name: Run verification tests
+      run: |
+        python test_blackout.py
+
+    - name: Compile Standalone Executable
+      run: |
+        pyinstaller --noconfirm --onefile --windowed --name "BlackoutPrivacy" app.py
+
+    - name: Upload Release Executable
+      uses: actions/upload-artifact@v4
+      with:
+        name: BlackoutPrivacy-windows-x64
+        path: dist/BlackoutPrivacy.exe
