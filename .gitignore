@@ -4,7 +4,11 @@ __pycache__/
 .pytest_cache/
 .venv/
 env/
-dist/
+
+# Build outputs
 build/
+dist/
 *.spec
+
+# Teamwork agent metadata
 .agents/

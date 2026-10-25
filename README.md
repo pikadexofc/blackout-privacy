@@ -57,10 +57,12 @@ Run the included verification suite:
 python test_blackout.py
 ```
 This test objectively verifies:
-- Multi-monitor virtual desktop metric resolution.
-- Window handle allocation and display affinity enforcement.
-- Real-time BitBlt capture inspection ensuring pixels read pure black `0x0`.
-- Deactivation and memory cleanup.
+- Multi-monitor virtual desktop metric resolution across all active displays.
+- Window handle allocation and click-through extended styles (`WS_EX_TOPMOST`, `WS_EX_LAYERED`, `WS_EX_TRANSPARENT`, `WS_EX_NOACTIVATE`).
+- Display affinity contract enforcement (`GetWindowDisplayAffinity == WDA_MONITOR = 0x1`).
+- Rapid toggle reliability (10 consecutive cycles without state corruption).
+- Idempotence of activation and deactivation.
+- Real-time 64-bit BitBlt screen capture verification ensuring captured frames read pure black (`0x000000`) when active and restore baseline desktop pixels when deactivated.
 
 ---
 
