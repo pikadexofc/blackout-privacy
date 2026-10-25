@@ -19,6 +19,7 @@ import subprocess
 import webbrowser
 import urllib.parse
 import platform
+import queue
 import ctypes
 from ctypes import wintypes
 import tkinter as tk
@@ -376,10 +377,13 @@ class BlackoutApp(tk.Tk):
         self._hotkey_thread_id = None
         self._hotkey_thread = None
         self._hotkey_started = threading.Event()
+        self._hotkey_queue = queue.Queue()
+        self._is_closing = False
 
         self._setup_ui()
         self._protect_self_from_capture()
         self._start_hotkey_listener()
+        self._poll_hotkey_queue()
 
         # Clean exit on close
         self.protocol("WM_DELETE_WINDOW", self.on_closing)
@@ -426,7 +430,7 @@ class BlackoutApp(tk.Tk):
             cursor="hand2",
             padx=16,
             pady=16,
-            command=self.toggle_privacy
+            command=lambda: self.toggle_privacy()
         )
         self.btn_privacy.pack(fill="x", padx=24, pady=6)
 
@@ -506,10 +510,7 @@ class BlackoutApp(tk.Tk):
                     if ret <= 0:
                         break
                     if msg.message == WM_HOTKEY and msg.wParam == HOTKEY_ID:
-                        try:
-                            self.after(0, self.toggle_privacy)
-                        except Exception:
-                            pass
+                        self._hotkey_queue.put(True)
                     user32.TranslateMessage(ctypes.byref(msg))
                     user32.DispatchMessageW(ctypes.byref(msg))
             finally:
@@ -518,6 +519,33 @@ class BlackoutApp(tk.Tk):
         self._hotkey_thread = threading.Thread(target=listener, daemon=True)
         self._hotkey_thread.start()
         self._hotkey_started.wait(timeout=1.0)
+
+    def _drain_hotkey_queue(self):
+        while not self._hotkey_queue.empty():
+            try:
+                self._hotkey_queue.get_nowait()
+                self.toggle_privacy()
+            except queue.Empty:
+                break
+
+    def _poll_hotkey_queue(self):
+        if self._is_closing:
+            return
+        try:
+            if not self.winfo_exists():
+                return
+        except Exception:
+            return
+        self._drain_hotkey_queue()
+        if not self._is_closing:
+            try:
+                self._poll_timer_id = self.after(10, self._poll_hotkey_queue)
+            except Exception:
+                pass
+
+    def update(self):
+        self._drain_hotkey_queue()
+        super().update()
 
     def toggle_privacy(self):
         is_active = self.mgr.toggle()
@@ -567,20 +595,34 @@ class BlackoutApp(tk.Tk):
 
     def on_closing(self):
         """Clean shutdown hook releasing privacy overlay and hotkey thread."""
+        if self._is_closing:
+            return
+        self._is_closing = True
+
+        if hasattr(self, "_poll_timer_id") and self._poll_timer_id:
+            try:
+                self.after_cancel(self._poll_timer_id)
+            except Exception:
+                pass
+
         if self.mgr.is_active:
             self.mgr.deactivate()
         if self._hotkey_thread_id:
             try:
                 user32.PostThreadMessageW(self._hotkey_thread_id, WM_QUIT, 0, 0)
                 if self._hotkey_thread and self._hotkey_thread.is_alive():
-                    self._hotkey_thread.join(timeout=0.5)
+                    self._hotkey_thread.join(timeout=0.3)
             except Exception:
                 pass
         try:
             user32.UnregisterHotKey(None, HOTKEY_ID)
         except Exception:
             pass
-        self.destroy()
+        try:
+            if self.winfo_exists():
+                self.destroy()
+        except Exception:
+            pass
 
 
 def main():
