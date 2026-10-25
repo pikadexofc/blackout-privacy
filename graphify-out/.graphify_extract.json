@@ -153,11 +153,20 @@
       "_origin": "ast"
     },
     {
+      "id": "app_init_dpi_awareness",
+      "label": "init_dpi_awareness()",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L81",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
       "id": "app_feedbackdialog",
       "label": "FeedbackDialog",
       "file_type": "code",
       "source_file": "app.py",
-      "source_location": "L35",
+      "source_location": "L103",
       "metadata": {
         "python_opaque_bases": true
       },
@@ -170,7 +179,34 @@
       "label": ".__init__()",
       "file_type": "code",
       "source_file": "app.py",
-      "source_location": "L36",
+      "source_location": "L104",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "app_feedbackdialog_setup_ui",
+      "label": "._setup_ui()",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L134",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "app_feedbackdialog_protect_self_from_capture",
+      "label": "._protect_self_from_capture()",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L232",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "app_feedbackdialog_collect_telemetry",
+      "label": "._collect_telemetry()",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L245",
       "_callable": true,
       "_origin": "ast"
     },
@@ -179,7 +215,7 @@
       "label": ".submit_feedback()",
       "file_type": "code",
       "source_file": "app.py",
-      "source_location": "L150",
+      "source_location": "L285",
       "_callable": true,
       "_origin": "ast"
     },
@@ -188,7 +224,7 @@
       "label": "worker()",
       "file_type": "code",
       "source_file": "app.py",
-      "source_location": "L161",
+      "source_location": "L305",
       "_callable": true,
       "_origin": "ast"
     },
@@ -197,7 +233,7 @@
       "label": "._on_success()",
       "file_type": "code",
       "source_file": "app.py",
-      "source_location": "L187",
+      "source_location": "L327",
       "_callable": true,
       "_origin": "ast"
     },
@@ -206,7 +242,16 @@
       "label": "._fallback_browser()",
       "file_type": "code",
       "source_file": "app.py",
-      "source_location": "L191",
+      "source_location": "L331",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "app_feedbackdialog_destroy",
+      "label": ".destroy()",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L353",
       "_callable": true,
       "_origin": "ast"
     },
@@ -215,7 +260,7 @@
       "label": "BlackoutApp",
       "file_type": "code",
       "source_file": "app.py",
-      "source_location": "L208",
+      "source_location": "L363",
       "metadata": {
         "python_opaque_bases": true
       },
@@ -228,7 +273,7 @@
       "label": ".__init__()",
       "file_type": "code",
       "source_file": "app.py",
-      "source_location": "L209",
+      "source_location": "L364",
       "_callable": true,
       "_origin": "ast"
     },
@@ -237,7 +282,7 @@
       "label": "._setup_ui()",
       "file_type": "code",
       "source_file": "app.py",
-      "source_location": "L227",
+      "source_location": "L387",
       "_callable": true,
       "_origin": "ast"
     },
@@ -246,16 +291,7 @@
       "label": "._protect_self_from_capture()",
       "file_type": "code",
       "source_file": "app.py",
-      "source_location": "L314",
-      "_callable": true,
-      "_origin": "ast"
-    },
-    {
-      "id": "app_blackoutapp_register_global_hotkey",
-      "label": "._register_global_hotkey()",
-      "file_type": "code",
-      "source_file": "app.py",
-      "source_location": "L325",
+      "source_location": "L475",
       "_callable": true,
       "_origin": "ast"
     },
@@ -264,7 +300,7 @@
       "label": "._start_hotkey_listener()",
       "file_type": "code",
       "source_file": "app.py",
-      "source_location": "L334",
+      "source_location": "L488",
       "_callable": true,
       "_origin": "ast"
     },
@@ -273,7 +309,7 @@
       "label": "listener()",
       "file_type": "code",
       "source_file": "app.py",
-      "source_location": "L336",
+      "source_location": "L492",
       "_callable": true,
       "_origin": "ast"
     },
@@ -282,7 +318,7 @@
       "label": ".toggle_privacy()",
       "file_type": "code",
       "source_file": "app.py",
-      "source_location": "L347",
+      "source_location": "L522",
       "_callable": true,
       "_origin": "ast"
     },
@@ -291,7 +327,7 @@
       "label": ".open_feedback()",
       "file_type": "code",
       "source_file": "app.py",
-      "source_location": "L380",
+      "source_location": "L555",
       "_callable": true,
       "_origin": "ast"
     },
@@ -300,7 +336,7 @@
       "label": ".on_closing()",
       "file_type": "code",
       "source_file": "app.py",
-      "source_location": "L383",
+      "source_location": "L568",
       "_callable": true,
       "_origin": "ast"
     },
@@ -309,7 +345,7 @@
       "label": "main()",
       "file_type": "code",
       "source_file": "app.py",
-      "source_location": "L393",
+      "source_location": "L586",
       "_callable": true,
       "_origin": "ast"
     },
@@ -322,27 +358,59 @@
       "_origin": "ast"
     },
     {
-      "id": "app_rationale_315",
-      "label": "Prevents this control window from appearing on screen share if desired.",
+      "id": "app_rationale_82",
+      "label": "Initializes Windows Per-Monitor v2 DPI awareness for crisp rendering on high-…",
       "file_type": "rationale",
       "source_file": "app.py",
-      "source_location": "L315",
+      "source_location": "L82",
       "_origin": "ast"
     },
     {
-      "id": "app_rationale_326",
-      "label": "Registers global Ctrl + Alt + B hotkey so user can toggle from any window.",
+      "id": "app_rationale_233",
+      "label": "Prevents the feedback dialog from appearing on screen share.",
       "file_type": "rationale",
       "source_file": "app.py",
-      "source_location": "L326",
+      "source_location": "L233",
       "_origin": "ast"
     },
     {
-      "id": "app_rationale_335",
-      "label": "Background message pump to capture WM_HOTKEY events.",
+      "id": "app_rationale_246",
+      "label": "Auto-collects diagnostic system information for feedback reports.",
       "file_type": "rationale",
       "source_file": "app.py",
-      "source_location": "L335",
+      "source_location": "L246",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_rationale_476",
+      "label": "Prevents this control window from appearing on screen share.",
+      "file_type": "rationale",
+      "source_file": "app.py",
+      "source_location": "L476",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_rationale_489",
+      "label": "Dedicated background message pump capturing thread-level WM_HOTKEY.",
+      "file_type": "rationale",
+      "source_file": "app.py",
+      "source_location": "L489",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_rationale_556",
+      "label": "Opens the feedback dialog or focuses an existing open instance.",
+      "file_type": "rationale",
+      "source_file": "app.py",
+      "source_location": "L556",
+      "_origin": "ast"
+    },
+    {
+      "id": "app_rationale_569",
+      "label": "Clean shutdown hook releasing privacy overlay and hotkey thread.",
+      "file_type": "rationale",
+      "source_file": "app.py",
+      "source_location": "L569",
       "_origin": "ast"
     },
     {
@@ -358,7 +426,7 @@
       "label": "WNDCLASSEXW",
       "file_type": "code",
       "source_file": "blackout_core.py",
-      "source_location": "L63",
+      "source_location": "L73",
       "metadata": {
         "python_opaque_bases": true
       },
@@ -371,7 +439,7 @@
       "label": "_wnd_proc()",
       "file_type": "code",
       "source_file": "blackout_core.py",
-      "source_location": "L81",
+      "source_location": "L159",
       "_callable": true,
       "_origin": "ast"
     },
@@ -380,7 +448,7 @@
       "label": "_ensure_class_registered()",
       "file_type": "code",
       "source_file": "blackout_core.py",
-      "source_location": "L86",
+      "source_location": "L166",
       "_callable": true,
       "_origin": "ast"
     },
@@ -389,7 +457,7 @@
       "label": "ScreenBlackoutManager",
       "file_type": "code",
       "source_file": "blackout_core.py",
-      "source_location": "L114",
+      "source_location": "L194",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast"
@@ -399,7 +467,7 @@
       "label": ".__init__()",
       "file_type": "code",
       "source_file": "blackout_core.py",
-      "source_location": "L118",
+      "source_location": "L198",
       "_callable": true,
       "_origin": "ast"
     },
@@ -408,7 +476,7 @@
       "label": ".is_active()",
       "file_type": "code",
       "source_file": "blackout_core.py",
-      "source_location": "L123",
+      "source_location": "L203",
       "_py_property": true,
       "_callable": true,
       "_origin": "ast"
@@ -418,7 +486,7 @@
       "label": ".get_virtual_screen_bounds()",
       "file_type": "code",
       "source_file": "blackout_core.py",
-      "source_location": "L126",
+      "source_location": "L206",
       "_callable": true,
       "_origin": "ast"
     },
@@ -427,7 +495,7 @@
       "label": ".activate()",
       "file_type": "code",
       "source_file": "blackout_core.py",
-      "source_location": "L141",
+      "source_location": "L221",
       "_callable": true,
       "_origin": "ast"
     },
@@ -436,7 +504,7 @@
       "label": ".deactivate()",
       "file_type": "code",
       "source_file": "blackout_core.py",
-      "source_location": "L189",
+      "source_location": "L275",
       "_callable": true,
       "_origin": "ast"
     },
@@ -445,7 +513,7 @@
       "label": ".toggle()",
       "file_type": "code",
       "source_file": "blackout_core.py",
-      "source_location": "L206",
+      "source_location": "L290",
       "_callable": true,
       "_origin": "ast"
     },
@@ -458,43 +526,43 @@
       "_origin": "ast"
     },
     {
-      "id": "blackout_core_rationale_115",
+      "id": "blackout_core_rationale_195",
       "label": "Controls the screen blackout overlay state.",
       "file_type": "rationale",
       "source_file": "blackout_core.py",
-      "source_location": "L115",
-      "_origin": "ast"
-    },
-    {
-      "id": "blackout_core_rationale_127",
-      "label": "Returns (x, y, width, height) covering all attached monitors.",
-      "file_type": "rationale",
-      "source_file": "blackout_core.py",
-      "source_location": "L127",
-      "_origin": "ast"
-    },
-    {
-      "id": "blackout_core_rationale_142",
-      "label": "Activates privacy mode: Screen becomes pitch black to any screen sharing…",
-      "file_type": "rationale",
-      "source_file": "blackout_core.py",
-      "source_location": "L142",
-      "_origin": "ast"
-    },
-    {
-      "id": "blackout_core_rationale_190",
-      "label": "Deactivates privacy mode: Screen capture immediately resumes normal view.",
-      "file_type": "rationale",
-      "source_file": "blackout_core.py",
-      "source_location": "L190",
+      "source_location": "L195",
       "_origin": "ast"
     },
     {
       "id": "blackout_core_rationale_207",
-      "label": "Toggles between active and inactive states. Returns new active state.",
+      "label": "Returns (x, y, width, height) covering all attached monitors.",
       "file_type": "rationale",
       "source_file": "blackout_core.py",
       "source_location": "L207",
+      "_origin": "ast"
+    },
+    {
+      "id": "blackout_core_rationale_222",
+      "label": "Activates privacy mode: Screen becomes pitch black to any screen sharing…",
+      "file_type": "rationale",
+      "source_file": "blackout_core.py",
+      "source_location": "L222",
+      "_origin": "ast"
+    },
+    {
+      "id": "blackout_core_rationale_276",
+      "label": "Deactivates privacy mode: Screen capture immediately resumes normal view.",
+      "file_type": "rationale",
+      "source_file": "blackout_core.py",
+      "source_location": "L276",
+      "_origin": "ast"
+    },
+    {
+      "id": "blackout_core_rationale_291",
+      "label": "Toggles between active and inactive states. Returns new active state.",
+      "file_type": "rationale",
+      "source_file": "blackout_core.py",
+      "source_location": "L291",
       "_origin": "ast"
     },
     {
@@ -585,6 +653,170 @@
       "file_type": "rationale",
       "source_file": "test_blackout.py",
       "source_location": "L21",
+      "_origin": "ast"
+    },
+    {
+      "id": "test_challenger_stress",
+      "label": "test_challenger_stress.py",
+      "file_type": "code",
+      "source_file": "test_challenger_stress.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "test_challenger_stress_point",
+      "label": "POINT",
+      "file_type": "code",
+      "source_file": "test_challenger_stress.py",
+      "source_location": "L54",
+      "metadata": {
+        "python_opaque_bases": true
+      },
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "test_challenger_stress_process_memory_counters",
+      "label": "PROCESS_MEMORY_COUNTERS",
+      "file_type": "code",
+      "source_file": "test_challenger_stress.py",
+      "source_location": "L72",
+      "metadata": {
+        "python_opaque_bases": true
+      },
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "test_challenger_stress_get_mem_bytes",
+      "label": "get_mem_bytes()",
+      "file_type": "code",
+      "source_file": "test_challenger_stress.py",
+      "source_location": "L94",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "test_challenger_stress_get_handle_count",
+      "label": "get_handle_count()",
+      "file_type": "code",
+      "source_file": "test_challenger_stress.py",
+      "source_location": "L103",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "test_challenger_stress_get_gui_resources",
+      "label": "get_gui_resources()",
+      "file_type": "code",
+      "source_file": "test_challenger_stress.py",
+      "source_location": "L111",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "test_challenger_stress_run_all_empirical_tests",
+      "label": "run_all_empirical_tests()",
+      "file_type": "code",
+      "source_file": "test_challenger_stress.py",
+      "source_location": "L118",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "test_challenger_stress_rationale_1",
+      "label": "Milestone 1 Empirical Stress Test Harness & Verification Suite Authored by…",
+      "file_type": "rationale",
+      "source_file": "test_challenger_stress.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "test_empirical_screen_capture",
+      "label": "test_empirical_screen_capture.py",
+      "file_type": "code",
+      "source_file": "test_empirical_screen_capture.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "test_empirical_screen_capture_rect",
+      "label": "RECT",
+      "file_type": "code",
+      "source_file": "test_empirical_screen_capture.py",
+      "source_location": "L79",
+      "metadata": {
+        "python_opaque_bases": true
+      },
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "test_empirical_screen_capture_monitorinfoexw",
+      "label": "MONITORINFOEXW",
+      "file_type": "code",
+      "source_file": "test_empirical_screen_capture.py",
+      "source_location": "L87",
+      "metadata": {
+        "python_opaque_bases": true
+      },
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "test_empirical_screen_capture_capture_pixel_64bit",
+      "label": "capture_pixel_64bit()",
+      "file_type": "code",
+      "source_file": "test_empirical_screen_capture.py",
+      "source_location": "L119",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "test_empirical_screen_capture_enumerate_monitors",
+      "label": "enumerate_monitors()",
+      "file_type": "code",
+      "source_file": "test_empirical_screen_capture.py",
+      "source_location": "L190",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "test_empirical_screen_capture_enumerate_monitors_enum_cb",
+      "label": "enum_cb()",
+      "file_type": "code",
+      "source_file": "test_empirical_screen_capture.py",
+      "source_location": "L193",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "test_empirical_screen_capture_run_empirical_verification",
+      "label": "run_empirical_verification()",
+      "file_type": "code",
+      "source_file": "test_empirical_screen_capture.py",
+      "source_location": "L213",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "test_empirical_screen_capture_rationale_1",
+      "label": "Empirical Multi-Monitor 64-bit BitBlt Screen Capture Verifier…",
+      "file_type": "rationale",
+      "source_file": "test_empirical_screen_capture.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "test_empirical_screen_capture_rationale_120",
+      "label": "Captures a 1x1 pixel from the screen DC using strict 64-bit GDI BitBlt.",
+      "file_type": "rationale",
+      "source_file": "test_empirical_screen_capture.py",
+      "source_location": "L120",
       "_origin": "ast"
     }
   ],
@@ -917,7 +1149,7 @@
     },
     {
       "source": "app",
-      "target": "ctypes",
+      "target": "platform",
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -929,7 +1161,7 @@
     {
       "source": "app",
       "target": "ctypes",
-      "relation": "imports_from",
+      "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "app.py",
@@ -939,8 +1171,8 @@
     },
     {
       "source": "app",
-      "target": "tkinter",
-      "relation": "imports",
+      "target": "ctypes",
+      "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "app.py",
@@ -951,11 +1183,22 @@
     {
       "source": "app",
       "target": "tkinter",
-      "relation": "imports_from",
+      "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "app.py",
       "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app",
+      "target": "tkinter",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L25",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -966,7 +1209,17 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "app.py",
-      "source_location": "L26",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app",
+      "target": "app_init_dpi_awareness",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L81",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -976,7 +1229,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app.py",
-      "source_location": "L35",
+      "source_location": "L103",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -986,7 +1239,37 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "app.py",
-      "source_location": "L36",
+      "source_location": "L104",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_feedbackdialog",
+      "target": "app_feedbackdialog_setup_ui",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L134",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_feedbackdialog",
+      "target": "app_feedbackdialog_protect_self_from_capture",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L232",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_feedbackdialog",
+      "target": "app_feedbackdialog_collect_telemetry",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L245",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -996,7 +1279,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "app.py",
-      "source_location": "L150",
+      "source_location": "L285",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1006,7 +1289,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app.py",
-      "source_location": "L161",
+      "source_location": "L305",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1016,7 +1299,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "app.py",
-      "source_location": "L187",
+      "source_location": "L327",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1026,7 +1309,17 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "app.py",
-      "source_location": "L191",
+      "source_location": "L331",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_feedbackdialog",
+      "target": "app_feedbackdialog_destroy",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L353",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1036,7 +1329,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app.py",
-      "source_location": "L208",
+      "source_location": "L363",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1046,7 +1339,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "app.py",
-      "source_location": "L209",
+      "source_location": "L364",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1056,7 +1349,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "app.py",
-      "source_location": "L227",
+      "source_location": "L387",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1066,17 +1359,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "app.py",
-      "source_location": "L314",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "app_blackoutapp",
-      "target": "app_blackoutapp_register_global_hotkey",
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app.py",
-      "source_location": "L325",
+      "source_location": "L475",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1086,7 +1369,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "app.py",
-      "source_location": "L334",
+      "source_location": "L488",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1096,7 +1379,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app.py",
-      "source_location": "L336",
+      "source_location": "L492",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1106,7 +1389,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "app.py",
-      "source_location": "L347",
+      "source_location": "L522",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1116,7 +1399,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "app.py",
-      "source_location": "L380",
+      "source_location": "L555",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1126,7 +1409,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "app.py",
-      "source_location": "L383",
+      "source_location": "L568",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1136,7 +1419,40 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app.py",
-      "source_location": "L393",
+      "source_location": "L586",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_feedbackdialog_init",
+      "target": "app_feedbackdialog_setup_ui",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L125",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_feedbackdialog_init",
+      "target": "app_feedbackdialog_protect_self_from_capture",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L126",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_feedbackdialog_submit_feedback",
+      "target": "app_feedbackdialog_collect_telemetry",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L295",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1148,18 +1464,7 @@
       "confidence": "INFERRED",
       "confidence_score": 0.85,
       "source_file": "app.py",
-      "source_location": "L185",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "app_feedbackdialog_submit_feedback_worker",
-      "target": "app_feedbackdialog_on_success",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app.py",
-      "source_location": "L181",
+      "source_location": "L325",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1170,7 +1475,29 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "app.py",
-      "source_location": "L183",
+      "source_location": "L323",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_feedbackdialog_on_success",
+      "target": "app_feedbackdialog_destroy",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L329",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_feedbackdialog_fallback_browser",
+      "target": "app_feedbackdialog_destroy",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L351",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1181,7 +1508,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "app.py",
-      "source_location": "L220",
+      "source_location": "L380",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1192,29 +1519,18 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "app.py",
-      "source_location": "L221",
+      "source_location": "L381",
       "weight": 1.0,
       "_origin": "ast"
     },
     {
       "source": "app_blackoutapp_init",
-      "target": "app_blackoutapp_register_global_hotkey",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app.py",
-      "source_location": "L222",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "app_blackoutapp_register_global_hotkey",
       "target": "app_blackoutapp_start_hotkey_listener",
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "app.py",
-      "source_location": "L332",
+      "source_location": "L382",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1226,7 +1542,7 @@
       "confidence": "INFERRED",
       "confidence_score": 0.85,
       "source_file": "app.py",
-      "source_location": "L344",
+      "source_location": "L518",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1237,7 +1553,18 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "app.py",
-      "source_location": "L381",
+      "source_location": "L566",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_main",
+      "target": "app_init_dpi_awareness",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L587",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1248,7 +1575,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "app.py",
-      "source_location": "L394",
+      "source_location": "L588",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1263,32 +1590,72 @@
       "_origin": "ast"
     },
     {
-      "source": "app_rationale_315",
+      "source": "app_rationale_82",
+      "target": "app_init_dpi_awareness",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L82",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_rationale_233",
+      "target": "app_feedbackdialog_protect_self_from_capture",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L233",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_rationale_246",
+      "target": "app_feedbackdialog_collect_telemetry",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L246",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_rationale_476",
       "target": "app_blackoutapp_protect_self_from_capture",
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "app.py",
-      "source_location": "L315",
+      "source_location": "L476",
       "weight": 1.0,
       "_origin": "ast"
     },
     {
-      "source": "app_rationale_326",
-      "target": "app_blackoutapp_register_global_hotkey",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "app.py",
-      "source_location": "L326",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "app_rationale_335",
+      "source": "app_rationale_489",
       "target": "app_blackoutapp_start_hotkey_listener",
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "app.py",
-      "source_location": "L335",
+      "source_location": "L489",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_rationale_556",
+      "target": "app_blackoutapp_open_feedback",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L556",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "app_rationale_569",
+      "target": "app_blackoutapp_on_closing",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L569",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1331,7 +1698,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "blackout_core.py",
-      "source_location": "L63",
+      "source_location": "L73",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1341,7 +1708,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "blackout_core.py",
-      "source_location": "L81",
+      "source_location": "L159",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1351,7 +1718,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "blackout_core.py",
-      "source_location": "L86",
+      "source_location": "L166",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1361,7 +1728,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "blackout_core.py",
-      "source_location": "L114",
+      "source_location": "L194",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1371,7 +1738,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "blackout_core.py",
-      "source_location": "L118",
+      "source_location": "L198",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1381,7 +1748,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "blackout_core.py",
-      "source_location": "L123",
+      "source_location": "L203",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1391,7 +1758,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "blackout_core.py",
-      "source_location": "L126",
+      "source_location": "L206",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1401,7 +1768,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "blackout_core.py",
-      "source_location": "L141",
+      "source_location": "L221",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1411,7 +1778,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "blackout_core.py",
-      "source_location": "L189",
+      "source_location": "L275",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1421,7 +1788,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "blackout_core.py",
-      "source_location": "L206",
+      "source_location": "L290",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1432,7 +1799,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "blackout_core.py",
-      "source_location": "L91",
+      "source_location": "L171",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1443,7 +1810,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "blackout_core.py",
-      "source_location": "L149",
+      "source_location": "L229",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1454,7 +1821,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "blackout_core.py",
-      "source_location": "L150",
+      "source_location": "L230",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1465,7 +1832,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "blackout_core.py",
-      "source_location": "L209",
+      "source_location": "L293",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1476,7 +1843,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "blackout_core.py",
-      "source_location": "L211",
+      "source_location": "L295",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1491,52 +1858,52 @@
       "_origin": "ast"
     },
     {
-      "source": "blackout_core_rationale_115",
+      "source": "blackout_core_rationale_195",
       "target": "blackout_core_screenblackoutmanager",
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "blackout_core.py",
-      "source_location": "L115",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "blackout_core_rationale_127",
-      "target": "blackout_core_screenblackoutmanager_get_virtual_screen_bounds",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "blackout_core.py",
-      "source_location": "L127",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "blackout_core_rationale_142",
-      "target": "blackout_core_screenblackoutmanager_activate",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "blackout_core.py",
-      "source_location": "L142",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "blackout_core_rationale_190",
-      "target": "blackout_core_screenblackoutmanager_deactivate",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "blackout_core.py",
-      "source_location": "L190",
+      "source_location": "L195",
       "weight": 1.0,
       "_origin": "ast"
     },
     {
       "source": "blackout_core_rationale_207",
-      "target": "blackout_core_screenblackoutmanager_toggle",
+      "target": "blackout_core_screenblackoutmanager_get_virtual_screen_bounds",
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "blackout_core.py",
       "source_location": "L207",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "blackout_core_rationale_222",
+      "target": "blackout_core_screenblackoutmanager_activate",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "blackout_core.py",
+      "source_location": "L222",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "blackout_core_rationale_276",
+      "target": "blackout_core_screenblackoutmanager_deactivate",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "blackout_core.py",
+      "source_location": "L276",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "blackout_core_rationale_291",
+      "target": "blackout_core_screenblackoutmanager_toggle",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "blackout_core.py",
+      "source_location": "L291",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1786,13 +2153,384 @@
       "_origin": "ast"
     },
     {
+      "source": "test_challenger_stress",
+      "target": "ctypes",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "test_challenger_stress.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_challenger_stress",
+      "target": "ctypes",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "test_challenger_stress.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_challenger_stress",
+      "target": "time",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "test_challenger_stress.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_challenger_stress",
+      "target": "os",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "test_challenger_stress.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_challenger_stress",
+      "target": "sys",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "test_challenger_stress.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_challenger_stress",
+      "target": "blackout_core",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "test_challenger_stress.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_challenger_stress",
+      "target": "test_challenger_stress_point",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "test_challenger_stress.py",
+      "source_location": "L54",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_challenger_stress",
+      "target": "test_challenger_stress_process_memory_counters",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "test_challenger_stress.py",
+      "source_location": "L72",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_challenger_stress",
+      "target": "test_challenger_stress_get_mem_bytes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "test_challenger_stress.py",
+      "source_location": "L94",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_challenger_stress",
+      "target": "test_challenger_stress_get_handle_count",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "test_challenger_stress.py",
+      "source_location": "L103",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_challenger_stress",
+      "target": "test_challenger_stress_get_gui_resources",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "test_challenger_stress.py",
+      "source_location": "L111",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_challenger_stress",
+      "target": "test_challenger_stress_run_all_empirical_tests",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "test_challenger_stress.py",
+      "source_location": "L118",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_challenger_stress_get_mem_bytes",
+      "target": "test_challenger_stress_process_memory_counters",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "test_challenger_stress.py",
+      "source_location": "L96",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_challenger_stress_run_all_empirical_tests",
+      "target": "test_challenger_stress_point",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "test_challenger_stress.py",
+      "source_location": "L258",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_challenger_stress_run_all_empirical_tests",
+      "target": "test_challenger_stress_get_mem_bytes",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "test_challenger_stress.py",
+      "source_location": "L375",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_challenger_stress_run_all_empirical_tests",
+      "target": "test_challenger_stress_get_handle_count",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "test_challenger_stress.py",
+      "source_location": "L376",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_challenger_stress_run_all_empirical_tests",
+      "target": "test_challenger_stress_get_gui_resources",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "test_challenger_stress.py",
+      "source_location": "L377",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_challenger_stress_rationale_1",
+      "target": "test_challenger_stress",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "test_challenger_stress.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_empirical_screen_capture",
+      "target": "ctypes",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "test_empirical_screen_capture.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_empirical_screen_capture",
+      "target": "ctypes",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "test_empirical_screen_capture.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_empirical_screen_capture",
+      "target": "time",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "test_empirical_screen_capture.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_empirical_screen_capture",
+      "target": "sys",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "test_empirical_screen_capture.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_empirical_screen_capture",
+      "target": "blackout_core",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "test_empirical_screen_capture.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_empirical_screen_capture",
+      "target": "test_empirical_screen_capture_rect",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "test_empirical_screen_capture.py",
+      "source_location": "L79",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_empirical_screen_capture",
+      "target": "test_empirical_screen_capture_monitorinfoexw",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "test_empirical_screen_capture.py",
+      "source_location": "L87",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_empirical_screen_capture",
+      "target": "test_empirical_screen_capture_capture_pixel_64bit",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "test_empirical_screen_capture.py",
+      "source_location": "L119",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_empirical_screen_capture",
+      "target": "test_empirical_screen_capture_enumerate_monitors",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "test_empirical_screen_capture.py",
+      "source_location": "L190",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_empirical_screen_capture_enumerate_monitors",
+      "target": "test_empirical_screen_capture_enumerate_monitors_enum_cb",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "test_empirical_screen_capture.py",
+      "source_location": "L193",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_empirical_screen_capture",
+      "target": "test_empirical_screen_capture_run_empirical_verification",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "test_empirical_screen_capture.py",
+      "source_location": "L213",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_empirical_screen_capture_enumerate_monitors",
+      "target": "test_empirical_screen_capture_enumerate_monitors_enum_cb",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "test_empirical_screen_capture.py",
+      "source_location": "L208",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_empirical_screen_capture_enumerate_monitors_enum_cb",
+      "target": "test_empirical_screen_capture_monitorinfoexw",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "test_empirical_screen_capture.py",
+      "source_location": "L194",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_empirical_screen_capture_run_empirical_verification",
+      "target": "test_empirical_screen_capture_enumerate_monitors",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "test_empirical_screen_capture.py",
+      "source_location": "L219",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_empirical_screen_capture_run_empirical_verification",
+      "target": "test_empirical_screen_capture_capture_pixel_64bit",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "test_empirical_screen_capture.py",
+      "source_location": "L266",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_empirical_screen_capture_rationale_1",
+      "target": "test_empirical_screen_capture",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "test_empirical_screen_capture.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_empirical_screen_capture_rationale_120",
+      "target": "test_empirical_screen_capture_capture_pixel_64bit",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "test_empirical_screen_capture.py",
+      "source_location": "L120",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "app",
       "target": "blackout_core_screenblackoutmanager",
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "app.py",
-      "source_location": "L26",
+      "source_location": "L27",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1808,13 +2546,57 @@
       "_origin": "ast"
     },
     {
+      "source": "test_challenger_stress",
+      "target": "blackout_core_screenblackoutmanager",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "test_challenger_stress.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_empirical_screen_capture",
+      "target": "blackout_core_screenblackoutmanager",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "test_empirical_screen_capture.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_challenger_stress_run_all_empirical_tests",
+      "target": "blackout_core_screenblackoutmanager",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "test_challenger_stress.py",
+      "source_location": "L123",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_empirical_screen_capture_run_empirical_verification",
+      "target": "blackout_core_screenblackoutmanager",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "test_empirical_screen_capture.py",
+      "source_location": "L226",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "app_blackoutapp",
       "target": "blackout_core_screenblackoutmanager",
       "relation": "uses",
       "confidence": "INFERRED",
       "confidence_score": 0.95,
       "source_file": "app.py",
-      "source_location": "L211",
+      "source_location": "L366",
       "weight": 0.8,
       "_origin": "ast"
     },
@@ -1830,6 +2612,28 @@
       "_origin": "ast"
     },
     {
+      "source": "test_challenger_stress_run_all_empirical_tests",
+      "target": "blackout_core_screenblackoutmanager",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "test_challenger_stress.py",
+      "source_location": "L123",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_empirical_screen_capture_run_empirical_verification",
+      "target": "blackout_core_screenblackoutmanager",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "test_empirical_screen_capture.py",
+      "source_location": "L226",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
       "source": "app_blackoutapp_init",
       "target": "blackout_core_screenblackoutmanager",
       "relation": "calls",
@@ -1837,7 +2641,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app.py",
-      "source_location": "L211",
+      "source_location": "L366",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1854,6 +2658,18 @@
       "_origin": "ast"
     },
     {
+      "source": "app_init_dpi_awareness",
+      "target": "ctypes",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app.py",
+      "source_location": "L87",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "app_blackoutapp_toggle_privacy",
       "target": "blackout_core_screenblackoutmanager_toggle",
       "relation": "calls",
@@ -1861,7 +2677,7 @@
       "confidence": "INFERRED",
       "confidence_score": 0.85,
       "source_file": "app.py",
-      "source_location": "L348",
+      "source_location": "L523",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1873,7 +2689,7 @@
       "confidence": "INFERRED",
       "confidence_score": 0.85,
       "source_file": "app.py",
-      "source_location": "L385",
+      "source_location": "L571",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1885,7 +2701,7 @@
       "confidence": "INFERRED",
       "confidence_score": 0.85,
       "source_file": "app.py",
-      "source_location": "L384",
+      "source_location": "L570",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1960,6 +2776,198 @@
       "source_location": "L77",
       "weight": 1.0,
       "_origin": "ast"
+    },
+    {
+      "source": "test_challenger_stress_get_mem_bytes",
+      "target": "ctypes",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test_challenger_stress.py",
+      "source_location": "L97",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_challenger_stress_get_handle_count",
+      "target": "ctypes",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test_challenger_stress.py",
+      "source_location": "L106",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_challenger_stress_run_all_empirical_tests",
+      "target": "blackout_core_screenblackoutmanager_activate",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "test_challenger_stress.py",
+      "source_location": "L130",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_challenger_stress_run_all_empirical_tests",
+      "target": "ctypes",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test_challenger_stress.py",
+      "source_location": "L137",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_challenger_stress_run_all_empirical_tests",
+      "target": "time",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test_challenger_stress.py",
+      "source_location": "L151",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_challenger_stress_run_all_empirical_tests",
+      "target": "blackout_core_screenblackoutmanager_get_virtual_screen_bounds",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "test_challenger_stress.py",
+      "source_location": "L158",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_challenger_stress_run_all_empirical_tests",
+      "target": "blackout_core_screenblackoutmanager_deactivate",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "test_challenger_stress.py",
+      "source_location": "L253",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_challenger_stress_run_all_empirical_tests",
+      "target": "blackout_core_screenblackoutmanager_toggle",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "test_challenger_stress.py",
+      "source_location": "L344",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_challenger_stress_run_all_empirical_tests",
+      "target": "blackout_core_screenblackoutmanager_is_active",
+      "relation": "references",
+      "context": "property_read",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "test_challenger_stress.py",
+      "source_location": "L385",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_empirical_screen_capture_run_empirical_verification",
+      "target": "blackout_core_screenblackoutmanager_get_virtual_screen_bounds",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "test_empirical_screen_capture.py",
+      "source_location": "L227",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_empirical_screen_capture_run_empirical_verification",
+      "target": "time",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test_empirical_screen_capture.py",
+      "source_location": "L281",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_empirical_screen_capture_run_empirical_verification",
+      "target": "blackout_core_screenblackoutmanager_activate",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "test_empirical_screen_capture.py",
+      "source_location": "L282",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_empirical_screen_capture_run_empirical_verification",
+      "target": "ctypes",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test_empirical_screen_capture.py",
+      "source_location": "L291",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_empirical_screen_capture_run_empirical_verification",
+      "target": "sys",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test_empirical_screen_capture.py",
+      "source_location": "L311",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_empirical_screen_capture_run_empirical_verification",
+      "target": "blackout_core_screenblackoutmanager_deactivate",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "test_empirical_screen_capture.py",
+      "source_location": "L318",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "test_empirical_screen_capture_run_empirical_verification",
+      "target": "blackout_core_screenblackoutmanager_is_active",
+      "relation": "references",
+      "context": "property_read",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "test_empirical_screen_capture.py",
+      "source_location": "L356",
+      "weight": 1.0,
+      "_origin": "ast"
     }
   ],
   "input_tokens": 0,
@@ -1971,6 +2979,8 @@
     "F:\\projects\\blackout-privacy\\app.py",
     "F:\\projects\\blackout-privacy\\blackout_core.py",
     "F:\\projects\\blackout-privacy\\run_graphify.py",
-    "F:\\projects\\blackout-privacy\\test_blackout.py"
+    "F:\\projects\\blackout-privacy\\test_blackout.py",
+    "F:\\projects\\blackout-privacy\\test_challenger_stress.py",
+    "F:\\projects\\blackout-privacy\\test_empirical_screen_capture.py"
   ]
 }
