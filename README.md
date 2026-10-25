@@ -2,6 +2,18 @@
 
 A zero-dependency, ultra-lightweight Windows desktop privacy app for screen sharing on **Google Meet, Zoom, Microsoft Teams, Discord, WebRTC**, and any screen recording/capture tool.
 
+[![Release](https://img.shields.io/github/v/release/pikadexofc/blackout-privacy?color=22c55e&style=flat-square)](https://github.com/pikadexofc/blackout-privacy/releases/latest)
+[![Platform](https://img.shields.io/badge/platform-Windows%2010%20%2F%2011-blue?style=flat-square)](https://github.com/pikadexofc/blackout-privacy)
+[![License](https://img.shields.io/badge/license-MIT-gray?style=flat-square)](LICENSE)
+
+---
+
+## ⚡ Direct Download
+
+Download the ready-to-run Windows standalone executable (no Python or installation required):
+
+👉 **[Download BlackoutPrivacy.exe (v1.0.0)](https://github.com/pikadexofc/blackout-privacy/releases/download/v1.0.0/BlackoutPrivacy.exe)**
+
 ---
 
 ## 💡 What it Does
@@ -26,20 +38,11 @@ Unlike software that pauses screen sharing (which alerts everyone or freezes the
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Controls
 
-### Prerequisites
-- Windows 10 (Version 2004 / Build 19041 or newer) or Windows 11.
-- Python 3.8+ (Zero external pip packages needed! Uses built-in `ctypes` and `tkinter`).
-
-### Running the App
-Double-click `run.bat` or run:
-```bash
-python app.py
-```
-
-### Hotkey
-- `Ctrl + Alt + B`: Instantly toggle screen blackout on or off from any active window or game.
+- **Single UI Toggle Button**: Big prominent switch with live visual indicator (`Normal / Stream Visible` vs `Blackout Active`).
+- **Global Hotkey (`Ctrl + Alt + B`)**: Instantly toggle screen blackout on or off from any active window or full-screen app.
+- **Auto Window Masking**: The Blackout Privacy app itself is excluded from screen capture (`WDA_EXCLUDEFROMCAPTURE`), keeping your privacy tool hidden from viewers.
 
 ---
 
@@ -58,6 +61,22 @@ This test objectively verifies:
 - Window handle allocation and display affinity enforcement.
 - Real-time BitBlt capture inspection ensuring pixels read pure black `0x0`.
 - Deactivation and memory cleanup.
+
+---
+
+## 🛠️ Development & Building from Source
+
+```bash
+# Clone
+git clone https://github.com/pikadexofc/blackout-privacy.git
+cd blackout-privacy
+
+# Run directly (Python 3.8+)
+python app.py
+
+# Build single-file executable
+pyinstaller --onefile --windowed --name "BlackoutPrivacy" app.py
+```
 
 ---
 
