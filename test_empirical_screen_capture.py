@@ -35,6 +35,10 @@ from blackout_core import (
     SM_YVIRTUALSCREEN,
     SM_CXVIRTUALSCREEN,
     SM_CYVIRTUALSCREEN,
+    RECT,
+    MONITORINFOEXW,
+    MONITORENUMPROC,
+    enumerate_monitors,
 )
 
 # -------------------------------------------------------------
@@ -74,47 +78,6 @@ gdi32.DeleteObject.restype = wintypes.BOOL
 
 gdi32.DeleteDC.argtypes = [HDC]
 gdi32.DeleteDC.restype = wintypes.BOOL
-
-# Monitor enumeration APIs
-class RECT(ctypes.Structure):
-    _fields_ = [
-        ("left", wintypes.LONG),
-        ("top", wintypes.LONG),
-        ("right", wintypes.LONG),
-        ("bottom", wintypes.LONG),
-    ]
-
-class MONITORINFOEXW(ctypes.Structure):
-    _fields_ = [
-        ("cbSize", wintypes.DWORD),
-        ("rcMonitor", RECT),
-        ("rcWork", RECT),
-        ("dwFlags", wintypes.DWORD),
-        ("szDevice", wintypes.WCHAR * 32),
-    ]
-
-MONITORENUMPROC = ctypes.WINFUNCTYPE(
-    wintypes.BOOL,
-    wintypes.HMONITOR,
-    HDC,
-    ctypes.POINTER(RECT),
-    wintypes.LPARAM
-)
-
-user32.EnumDisplayMonitors.argtypes = [
-    HDC,
-    ctypes.POINTER(RECT),
-    MONITORENUMPROC,
-    wintypes.LPARAM
-]
-user32.EnumDisplayMonitors.restype = wintypes.BOOL
-
-user32.GetMonitorInfoW.argtypes = [
-    wintypes.HMONITOR,
-    ctypes.POINTER(MONITORINFOEXW)
-]
-user32.GetMonitorInfoW.restype = wintypes.BOOL
-
 
 def capture_pixel_64bit(x: int, y: int, monitors: list = None) -> int:
     """Captures a 1x1 pixel from the screen DC using strict 64-bit GDI BitBlt."""
@@ -185,29 +148,6 @@ def capture_pixel_64bit(x: int, y: int, monitors: list = None) -> int:
         user32.ReleaseDC(None, hdc_screen)
 
     return pixel
-
-
-def enumerate_monitors():
-    monitors = []
-
-    def enum_cb(hmon, hdc, lprect, lparam):
-        info = MONITORINFOEXW()
-        info.cbSize = ctypes.sizeof(MONITORINFOEXW)
-        if user32.GetMonitorInfoW(hmon, ctypes.byref(info)):
-            r = info.rcMonitor
-            monitors.append({
-                "device": info.szDevice,
-                "flags": info.dwFlags,
-                "rect": (r.left, r.top, r.right, r.bottom),
-                "width": r.right - r.left,
-                "height": r.bottom - r.top,
-                "hmon": hmon
-            })
-        return True
-
-    cb = MONITORENUMPROC(enum_cb)
-    user32.EnumDisplayMonitors(None, None, cb, 0)
-    return monitors
 
 
 def run_empirical_verification():

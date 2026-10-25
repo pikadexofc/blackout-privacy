@@ -153,6 +153,70 @@ kernel32.GetLastError.restype = wintypes.DWORD
 gdi32.GetStockObject.argtypes = [ctypes.c_int]
 gdi32.GetStockObject.restype = wintypes.HGDIOBJ
 
+# Multi-monitor enumeration definitions
+class RECT(ctypes.Structure):
+    _fields_ = [
+        ("left", wintypes.LONG),
+        ("top", wintypes.LONG),
+        ("right", wintypes.LONG),
+        ("bottom", wintypes.LONG),
+    ]
+
+class MONITORINFOEXW(ctypes.Structure):
+    _fields_ = [
+        ("cbSize", wintypes.DWORD),
+        ("rcMonitor", RECT),
+        ("rcWork", RECT),
+        ("dwFlags", wintypes.DWORD),
+        ("szDevice", wintypes.WCHAR * 32),
+    ]
+
+MONITORENUMPROC = ctypes.WINFUNCTYPE(
+    wintypes.BOOL,
+    wintypes.HMONITOR,
+    wintypes.HDC,
+    ctypes.POINTER(RECT),
+    wintypes.LPARAM,
+)
+
+user32.EnumDisplayMonitors.argtypes = [
+    wintypes.HDC,
+    ctypes.POINTER(RECT),
+    MONITORENUMPROC,
+    wintypes.LPARAM,
+]
+user32.EnumDisplayMonitors.restype = wintypes.BOOL
+
+user32.GetMonitorInfoW.argtypes = [
+    wintypes.HMONITOR,
+    ctypes.POINTER(MONITORINFOEXW),
+]
+user32.GetMonitorInfoW.restype = wintypes.BOOL
+
+
+def enumerate_monitors():
+    """Returns list of active monitors with their device names and rectangles."""
+    monitors = []
+
+    def _enum_cb(hmon, hdc, lprect, lparam):
+        info = MONITORINFOEXW()
+        info.cbSize = ctypes.sizeof(MONITORINFOEXW)
+        if user32.GetMonitorInfoW(hmon, ctypes.byref(info)):
+            r = info.rcMonitor
+            monitors.append({
+                "device": info.szDevice,
+                "flags": info.dwFlags,
+                "rect": (r.left, r.top, r.right, r.bottom),
+                "width": r.right - r.left,
+                "height": r.bottom - r.top,
+                "hmon": hmon,
+            })
+        return True
+
+    cb = MONITORENUMPROC(_enum_cb)
+    user32.EnumDisplayMonitors(None, None, cb, 0)
+    return monitors
+
 _overlay_class_atom = None
 
 
